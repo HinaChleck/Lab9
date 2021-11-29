@@ -62,49 +62,7 @@ namespace Lab9
                 Console.WriteLine("Ошибка: {0}", ex.Message);
  
             }
-            
-            
-            
-            /*finally
-            {
-                try
-                {
-                    Console.Write("Введите математическую операцию (+ , - , / ,  *)");
-                    string symbol = Convert.ToString(Console.ReadLine());
-                    switch (symbol)
-                    {
-                        case "+":
-                            {
-                                Console.WriteLine("{0} {2} {1} = {3}", x, y, symbol, x + y);
-                                break;
-                            }
-                        case "-":
-                            {
-                                Console.WriteLine("{0} {2} {1} = {3}", x, y, symbol, x - y);
-                                break;
-                            }
-                        case "*":
-                            {
-                                Console.WriteLine("{0} {2} {1} = {3}", x, y, symbol, x * y);
-                                break;
-                            }
-                        case "/":
-                            {
-                                Console.WriteLine("{0} {2} {1} = {3}", x, y, symbol, x / y);
-                                break;
-                            }
-                        default:
-                            throw new Exception("Введена некорретная операция");
-                    }
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine("Ошибка: {0}", ex.Message);
-                }
-            }*/
-
-
-
+         
             Console.ReadKey();
         }
                
