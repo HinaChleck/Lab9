@@ -14,7 +14,7 @@ namespace Lab9
         //Используйте обработку исключений для защиты от ввода некорректных данных.
         {
 
-            Console.WriteLine("КАЛЬКУЛЯТОР");
+            Console.WriteLine("КАЛЬКУЛЯТОР\n");
             
             try
             {
@@ -29,17 +29,17 @@ namespace Lab9
                 {
                     case "+":
                         {
-                            Console.WriteLine("{0} {2} {1} = {3}", x, y, symbol, x + y);
+                            Console.WriteLine("\n{0} {2} {1} = {3}", x, y, symbol, x + y);
                             break;
                         }
                     case "-":
                         {
-                            Console.WriteLine("{0} {2} {1} = {3}", x, y, symbol, x - y);
+                            Console.WriteLine("\n{0} {2} {1} = {3}", x, y, symbol, x - y);
                             break;
                         }
                     case "*":
                         {
-                            Console.WriteLine("{0} {2} {1} = {3}", x, y, symbol, x * y);
+                            Console.WriteLine("\n{0} {2} {1} = {3}", x, y, symbol, x * y);
                             break;
                         }
                     case "/":
@@ -59,7 +59,7 @@ namespace Lab9
             catch (Exception ex)
             {
 
-                Console.WriteLine("Ошибка: {0}", ex.Message);
+                Console.WriteLine("\n!Ошибка: {0}", ex.Message);
  
             }
          
